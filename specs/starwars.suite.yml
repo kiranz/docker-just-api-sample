@@ -1,0 +1,19 @@
+meta:
+  name: Star Wars suite
+configuration:
+  scheme: https
+  host: swapi.co
+  base_path: /api
+specs:
+  - name: get "Luke Skywalker" info
+    request:
+      path: /people/1/
+      method: get
+    response:
+      status_code: 200
+      headers:
+        - name: content-type
+          value: !!js/regexp application/json     
+      json_data:
+        - path: $.name
+          value: Luke Skywalker

@@ -1,0 +1,13 @@
+{
+  "name": "docker-just-api",
+  "version": "1.0.0",
+  "description": "A sample just-api docker setup",
+  "dependencies": {
+    "just-api": "*"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/just-api"
+  },
+  "author": "Kiran Mandadi",
+  "license": "MIT"
+}
