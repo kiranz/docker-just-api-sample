@@ -1,5 +1,5 @@
 # Using docker to run Just-API tests
-  This repo serves like a boiler plate to organize and run Just-API tests with docker.
+  This repo serves like a boilerplate to organize and run Just-API tests with docker.
 
 Test suites are in `specs` directory.
 
