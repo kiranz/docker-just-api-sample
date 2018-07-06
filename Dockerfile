@@ -5,6 +5,7 @@ FROM node:8
 WORKDIR /just-api
 
 # copy package.json and specs from host to image
+# You may want to copy any additional files you have
 ADD package.json /just-api/package.json
 ADD specs /just-api/specs
 
